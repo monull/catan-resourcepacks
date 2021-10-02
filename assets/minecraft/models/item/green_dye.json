@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/green_dye"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/city/monull/green/city"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "item/town/monull/green/town"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "item/road/devil0812/green/road"
+    }
+  ]
+}
